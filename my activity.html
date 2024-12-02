@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Now i will do it by myself
+        </title>
+        <style>
+h1{
+    text-decoration: dotted;
+    text-transform: lowercase;
+    transform: rotateX('180deg');
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+    font-weight: bold;
+}
+#text{
+    text-shadow: 3px 3px 1px crimson;
+    /* right-offset left-offset fade color*/
+}
+#box{
+    box-shadow: 5px 5px 2px purple;
+    animation-name: xyz;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes xyz{
+    50%{ background-color: blue;}
+   70%{ background-color: rgb(35, 229, 148);}
+    40%{ background-color: rgb(203, 187, 13);}
+    80%{ background-color: rgb(161, 16, 33);}
+}
+#para_2{
+    text-indent: 100px;
+}
+        </style>
+    </head>
+    <body>
+        <h1>
+            I like coding
+        </h1>
+        <h2 id="box">
+            We are applying box shadow
+        </h2>
+        <h3 id="text">
+            We are applying text shadow
+        </h3>
+        <div>
+            <p id="para_2">
+                This is an example of text indent
+            </p>
+        </div>
+    </body>
+</html>
